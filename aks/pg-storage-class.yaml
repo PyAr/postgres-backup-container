@@ -4,6 +4,6 @@ metadata:
   name: backup-storage
 provisioner: kubernetes.io/azure-file
 parameters:
-  location: westeurope
+  location: eastus
   skuName: Standard_GRS
   storageAccount: pgbackupstorage

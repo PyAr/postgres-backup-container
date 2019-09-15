@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:latest
 
 ENV PGHOST='localhost:5432'
 ENV PGDATABASE='postgres'
